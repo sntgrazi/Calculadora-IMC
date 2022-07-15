@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+  <div class="box-esquerda">
+    <div class="titulo">
+        <h1>Calculadora-IMC</h1>
+    </div>
+    <div class="form">
+            <div class="input">
+              <label for="peso">Peso:</label>
+              <input type="number" name="peso" id="peso">
+            </div>
+            <div class="input">
+              <label for="altura">Altura:</label>
+              <input type="number" name="altura" id="altura">
+            </div>
+            <button id="calcular">Calcular</button>
+    </div>
+    <div class="result" id="resultado"></div>
+  </div>
+  <div class="box-direita" id="mostrar">
+    <ul>
+      <li>Se o resultado for menor que 18,5, você está abaixo do peso</li>
+      <li>Se o resultado for de 18,5 a 24,9, você está normal</li>
+      <li>Se o resultado for de 25 a 29,9, você está com sobrepeso</li>
+      <li>Se o resultado for de 30 a 34,9 , você está com obesidade grau I</li>
+      <li>Se o resultado for de 35 a 39,9 , você está com obesidade grau II</li>
+      <li>Se o resultado for acima de 40, você está com obesidade grau III(mórbida).</li>
+  </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
